@@ -1,4 +1,5 @@
-/* Test Change 2 */
+/* Test Change 4 */
+/* Development Branch */
 *{
     margin: 0px;
     padding: 0px;
@@ -404,7 +405,8 @@
     width: fit-content;
     background-color:#232F3E;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
 }
 /* .footer-panel-3{
     height: 100%;
@@ -443,4 +445,10 @@
     display: flex;
     justify-content: center;
     margin-top: 30px;
+}
+.footer-panel-2-content-contaner{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+
 }
