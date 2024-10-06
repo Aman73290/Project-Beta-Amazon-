@@ -733,37 +733,54 @@
   flex-wrap: wrap;
 }
 
-/* Box-1 */
+
 
 .box-1 {
-  text-align: left;
-  font-size: 1rem;
-  height: 400px;
-  max-width: 400px;
-  padding: 1rem;
-  display: inline-block;
-  margin-top: 5px;
-  background-color: #fff;
-  border-radius: 9px;
+  height: fit-content;
+  max-width: 300px;
+  background-color: #ffffff;
+  padding: 0 10px 0 10px;
 }
-
-.box-content {
+.box-1-content-contaner{
+  padding: 20px 0 20px 0;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+}
+.box-1-content-header{
+  padding: 0 20px;
+  margin-bottom: 10px;
+}
+.box-1-content-a{
   height: 100%;
-  width: 400px;
-  margin-left: 5px;
-  margin-right: 5px;
+}
+.box-1-content-img-contaner-2{
+  height: 303px;
+  padding: 0 20px;
+  margin-bottom: 44px;
+  overflow: hidden;
+}
+.box-1-content-img-contaner-1{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-size: contain;
+}
+.panel-2-box-1-img{
+  height: 100%;
+  max-width: none;
+}
+.box-1content-info-contaner{
+  padding: 0 20px;
+  margin-bottom: 5px;
 }
 
-.box-img {
-  height: 250px;
-  width: 250px;
-  background-size: cover;
-}
 
 /* Box-1 */
 .panel-2-box-2 {
   height: 400px;
-  max-width: 400px;
+  max-width: 300px;
   border-radius: 9px;
   padding: 20px 0px 15px 0px;
   display: flex;
@@ -776,6 +793,7 @@
 
 .panel-2-box-2-content-contaner {
   height: 100%;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -787,13 +805,6 @@
   width: 100%;
   background-size: cover;
 }
-
-.panel-2-box-2-img {
-  background-size: cover;
-  height: 100px;
-  width: 163px;
-}
-
 .panel-2-box-2-h {
   display: contents;
 }
@@ -803,6 +814,7 @@
   width: fit-content;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  /* overflow: hidden; */
 }
 
 #panel-2-box-2-span {
@@ -811,20 +823,26 @@
 }
 
 .panel-2-box-2-image {
-  min-width: 306px;
-  width: fit-content;
+  width: 100%;
   display: flex;
   align-items: center;
 }
 
 .panel-2-box-2-image-tag{
-  background-size: cover;
+  background-size: contain ;
+  height: 102px;
+  width: 126px;
 }
 .panel-2-box-2-image-sub-info{
   font-size: 0.8rem;
   font-weight: 500;
   color: #595e60;
 }
+.panel-2-box-2-subbox{
+  overflow: hidden;
+}
+
+
   /* Box-2 */
 
 
