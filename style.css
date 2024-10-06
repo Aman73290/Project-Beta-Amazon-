@@ -370,7 +370,8 @@
 /* panel - 1 */
 
 /* panel - 2 */
-.panel-2 {
+.panel-2,
+.panel-3 {
   padding: 0px 10px 0px 10px;
   border-radius: 9px;
   background-color: #edf6f9;
@@ -415,7 +416,8 @@
 }
 
 /* Box-1 */
-.panel-2-box-2 {
+.panel-2-box-2,
+.panel-3-box-2 {
   height: 400px;
   max-width: 400px;
   border-radius: 9px;
@@ -428,7 +430,8 @@
   background-color: #fff;
 }
 
-.panel-2-box-2-content-contaner {
+.panel-2-box-2-content-contaner,
+.panel-3-box-2-content-contaner {
   height: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -702,12 +705,12 @@
   }
 }
 
-#panel2 {
+#panel3 {
   background-color: whitesmoke;
   margin-top: 10px;
 }
 
-#panel2 .mySwiper .swiper-wrapper .swiper-slide .box-1 .box-img {
+#panel3 .mySwiper .swiper-wrapper .swiper-slide .box-1 .box-img {
   background-size: cover;
 }
 
