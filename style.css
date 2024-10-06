@@ -798,10 +798,9 @@
   display: contents;
 }
 
-.box-2-img-contaner {
+.panel-2-box-2-image-contaner{
   height: 276px;
   width: fit-content;
-
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
@@ -811,7 +810,7 @@
   width: fit-content;
 }
 
-.box-2-img-contaner {
+.panel-2-box-2-image {
   min-width: 306px;
   width: fit-content;
   display: flex;
@@ -828,10 +827,6 @@
 }
   /* Box-2 */
 
-
-/* #panel-2-box-2-img-span{
-
-} */
 
 
 
