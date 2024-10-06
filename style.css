@@ -1,5 +1,5 @@
 * {
-<<<<<<< HEAD
+
     margin: 0px;
     padding: 0px;
     font-family: Arial;
@@ -330,19 +330,6 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
   }
-=======
-  margin: 0px;
-  padding: 0px;
-  font-family: Arial;
-  /* border: 2px solid white; */
-  color: #0f1111;
-  text-decoration: none;
-}
->>>>>>> b4600eee50ca48943318887500e7347d316cd3fa
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-<<<<<<< HEAD
   /* Box-1 */
 
   /* Box-2 */
@@ -373,7 +360,7 @@
 .panel-2-box-2-image{
   height: 50%;
   /* width: 100%; */
-=======
+}
 .body {
   display: flex;
 }
@@ -770,13 +757,7 @@
 .box-img {
   height: 250px;
   width: 250px;
-  margin: 0.8rem auto;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  border-radius: 9px;
-  overflow: hidden;
 }
 
 /* Box-1 */
@@ -833,11 +814,10 @@
 .box-2-img-contaner {
   min-width: 306px;
   width: fit-content;
->>>>>>> b4600eee50ca48943318887500e7347d316cd3fa
   display: flex;
   align-items: center;
 }
-<<<<<<< HEAD
+
 .panel-2-box-2-image-tag{
   background-size: cover;
 }
@@ -847,7 +827,7 @@
   color: #595e60;
 }
   /* Box-2 */
-=======
+
 
 /* #panel-2-box-2-img-span{
 
@@ -871,7 +851,7 @@
   justify-content: center;
   align-items: center;
 }
->>>>>>> b4600eee50ca48943318887500e7347d316cd3fa
+
 
 #footer-info1 {
   color: #edf6f9;
