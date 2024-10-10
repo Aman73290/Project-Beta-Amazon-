@@ -739,12 +739,12 @@
   text-align: left;
   font-size: 1rem;
   height: 400px;
-  max-width: 400px;
+  width: 320px;
   padding: 1rem;
   display: inline-block;
   margin-top: 5px;
   background-color: #fff;
-  border-radius: 9px;
+
 }
 
 .box-content {
@@ -755,16 +755,16 @@
 }
 
 .box-img {
-  height: 250px;
+  height: 320px;
   width: 250px;
+  margin-bottom: 44px;
   background-size: cover;
 }
 
 /* Box-1 */
 .panel-2-box-2 {
   height: 400px;
-  max-width: 400px;
-  border-radius: 9px;
+  width: 320px;
   padding: 20px 0px 15px 0px;
   display: flex;
   flex-wrap: wrap;
@@ -776,28 +776,12 @@
 
 .panel-2-box-2-content-contaner {
   height: 100%;
+  width: 300px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 10px 10px 10px 10px;
 }
-
-#panel-2-box-2-img {
-  height: 145px;
-  width: 100%;
-  background-size: cover;
-}
-
-.panel-2-box-2-img {
-  background-size: cover;
-  height: 100px;
-  width: 163px;
-}
-
-.panel-2-box-2-h {
-  display: contents;
-}
-
 .panel-2-box-2-image-contaner{
   height: 276px;
   width: fit-content;
@@ -805,20 +789,25 @@
   justify-content: space-evenly;
 }
 
-#panel-2-box-2-span {
-  height: fit-content;
-  width: fit-content;
-}
 
 .panel-2-box-2-image {
-  min-width: 306px;
-  width: fit-content;
+  width: 295px;
   display: flex;
   align-items: center;
+
+}
+.panel-2-box-2-subbox{
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  overflow: hidden;
 }
 
 .panel-2-box-2-image-tag{
-  background-size: cover;
+
+  height: 100px;
+  width: 160px;
+  /* padding: 10px; */
 }
 .panel-2-box-2-image-sub-info{
   font-size: 0.8rem;
