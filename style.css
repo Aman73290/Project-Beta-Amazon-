@@ -172,7 +172,7 @@
   
   /* nav-main */
   .nav-main {
-    height: 40px;
+    height: 42px;
     border: none;
     background-color: #232f3e;
     color: #e6e6e6;
@@ -183,7 +183,7 @@
     height: 36px;
     width: 50px;
     display: flex;
-  
+    border: 2px solid #232f3e;
     align-items: center;
     justify-content: center;
   }
@@ -208,6 +208,7 @@
   .info5 {
     height: 40px;
     /* width: 30px; */
+    border: 2px solid #232f3e;
     justify-content: center;
     align-content: center;
     font-size: 1.5rem;
@@ -221,36 +222,42 @@
   #info6 {
     width: fit-content;
     height: 36px;
+    border: 2px solid #232f3e;
     align-content: center;
     padding: 2px 8px 2px 8px;
   }
   #info7 {
     width: fit-content;
     height: 36px;
+    border: 2px solid #232f3e;
     padding: 2px 8px 2px 8px;
     align-content: center;
   }
   #info8 {
     width: fit-content;
     height: 36px;
+    border: 2px solid #232f3e;
     padding: 2px 8px 2px 8px;
     align-content: center;
   }
   #info9 {
     width: fit-content;
     height: 36px;
+    border: 2px solid #232f3e;
     padding: 2px 8px 2px 8px;
     align-content: center;
   }
   #info10 {
     width: fit-content;
     height: 36px;
+    border: 2px solid #232f3e;
     padding: 2px 8px 2px 8px;
     align-content: center;
   }
   #info11 {
     display: inline;
     justify-items: flex-end;
+    border: 2px solid #232f3e;
     align-content: center;
   }
   .nav-main-icon:hover {
