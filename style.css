@@ -24,13 +24,14 @@ justify-content: space-evenly;
 .navlogo {
 height: 50px;
 width: 148px;
+border: 2px solid  #0f1111;
 /* padding: 2px 8px 2px 8px; */
 }
 
 .logo {
 height: 40px;
 width: 95%;
-background-image: url("Image/WhatsApp\ Image\ 2024-09-22\ at\ 12.35.20_df87af3a.jpg");
+background-image: url("Image/amazon-logo-black-background-xb9pdemosnjfz9ej.jpg");
 background-size: cover;
 margin: 8px 2px 8px 2px;
 }
@@ -53,6 +54,7 @@ display: flex;
 .location {
 height: 50px;
 width: 210px;
+border: 2px solid  #0f1111;
 display: flex;
 width: fit-content;
 text-decoration: none;
@@ -73,12 +75,14 @@ width: fit-content;
 
 #deliver-ad {
 display: inline-block;
+font-size: 0.85rem;
 color: #cccccc;
 font-weight: 200;
 }
 
 #updl {
 display: block;
+font-size: 0.85rem;
 color: #ffffff;
 font-weight: 700;
 }
@@ -93,7 +97,9 @@ border-radius: 5px;
 /* Box 3 */
 .nav-search {
 height: 40px;
-width: 620px;
+width: 60%;
+/* width: 620px; */
+border: 2px solid  #0f1111;
 display: flex;
 border-radius: 4px;
 justify-content: space-evenly;
@@ -121,7 +127,7 @@ color: #0f1111;
 
 .search-icon {
 width: 45px;
-background-color: #fca311;
+background-color: #febd69;
 border: none;
 border-top-right-radius: 4px;
 border-bottom-right-radius: 4px;
@@ -136,7 +142,7 @@ border: none;
 }
 
 .nav-search:hover {
-border: 2px solid #fca311;
+border: 2px solid #0f1111;
 border-radius: 5px;
 }
 
@@ -144,7 +150,13 @@ border-radius: 5px;
 
 /* box 4 */
 .box-4 {
+height: 50px;
 width: 150px;
+border: 2px solid  #0f1111;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
 }
 
 #info1 {
@@ -165,7 +177,13 @@ border-radius: 5px;
 
 /* box -5 */
 .box-5 {
+height: 50px;
 width: 75px;
+border: 2px solid  #0f1111;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
 }
 
 #info3 {
@@ -185,12 +203,23 @@ border-radius: 5px;
 
 /* box-6 */
 .box-6 {
+height: 50px;
+width: 60px;
 font-size: 1.5rem;
+border: 2px solid  #0f1111;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .box-6:hover {
 border: 2px solid white;
 border-radius: 5px;
+}
+#navBar-box-6-info{
+  font-size: 1rem;
+  font-weight: 700;
+  color: #e6e6e6;
 }
 
 /* nav-bar */
