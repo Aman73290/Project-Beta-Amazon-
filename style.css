@@ -498,6 +498,7 @@ width: 160px;
 font-size: 0.8rem;
 font-weight: 500;
 color: #595e60;
+display: block;
 }
 .panel-2-box-2-subbox{
 overflow: hidden;
